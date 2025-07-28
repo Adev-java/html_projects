@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --navbar-height: 59px;
+}
+/*navigation styling*/
+#navbar{
+    display: flex ;
+    top: 0;
+    position: sticky;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#logo{
+margin: 10px 20px;
+}
+#logo img{
+    height: 60px;
+    width: 70px;
+    margin: 3px 6px;
+}
+#navbar ul{
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+    position: sticky;
+    list-style: none;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 30px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+  
+}
+#navbar ul li a:hover{
+    color:black;
+    background-color: white;
+}
+/*home section styling*/
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 34px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 690px;
+}
+#home::before{
+    content: "";
+    background-image:url(../images/spaghetti-1932466_640.jpg) ;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.85;
+}
+.prim{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn{
+    padding: 8px 20px;
+    border: 2px solid white;
+    background-color:rgb(228, 91, 91);
+    font-size: 1.5rem;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 17px;
+}
+.btn:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+/*Services section*/
+
+#services{
+    margin: 34px;
+    display: flex
+    
+}
+#services .box{
+    border: 2px solid brown;
+    padding: 34px;
+    border-radius: 28px;
+    margin: 3px 6px;
+    background-color: #f2f2f2;
+}
+#services .box img{
+height: 200px;
+width: 200px;
+display: block;
+margin: auto;
+}
+#services .box p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h-primary{
+    font-size: 2rem;
+    padding: 12px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.h-secondary{
+    font-size: 1.4rem;
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/*contact section*/
+
+#contact{
+position: relative;
+}
+#contact::before{
+content:"";
+position: absolute;
+width: 100%;
+height: 100%;
+z-index: -1;
+opacity: 0.7;
+background-image: url("../images/images contact.jpeg"); 
+}
+#contact-box{
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  padding-bottom: 20px;
+  
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    margin-bottom: 34px;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    color: white;
+}
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    text-align: center
+}
+/*#contact-box img{
+    height: 60px;
+width: 60px;
+margin: 3px 6px;
+display: block;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s-serif;
+
+
+
+
+
+
+
+
+
